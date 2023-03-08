@@ -6,6 +6,7 @@
 // Vendor
 // @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "rails_bootstrap_forms";
 @import "font-awesome";
 
 // App
@@ -24,7 +25,7 @@ h4 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   margin: auto;
-  padding: 10px;
+  padding-bottom: 1em;
 }
 // Bootstrap adjustments
 form.button_to {
@@ -113,3 +114,9 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+
+main {
+  margin: 3em;
+}
+
+
