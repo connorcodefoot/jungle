@@ -1,11 +1,12 @@
-<h1>Signup!</h1>
+<h1>Sign Up!</h1>
 
-<%= form_for :user, url: '/users' do |f| %>
 
-  Name: <%= f.text_field :name %>
-  Email: <%= f.text_field :email %>
-  Password: <%= f.password_field :password %>
-  Password Confirmation: <%= f.password_field :password_confirmation %>
+<%= bootstrap_form_for :user, url: '/users' do |f| %>
+
+  <%= f.text_field :name, floating: true%>
+  <%= f.text_field :email, floating: true %>
+  <%= f.password_field :password, floating: true %>
+  <%= f.password_field :password_confirmation, floating: true %>
   <%= f.submit "Submit" %>
 
 <% end %>
