@@ -1,0 +1,21 @@
+
+.dashboard {
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-around;
+  text-align: center;
+  margin: 5em;
+}
+
+.dashboard-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 15em;
+  height: auto;
+  background-color: green;
+  color: white;
+  border: 1px;
+  border-radius: 15px;
+  border-style: none;
+}
