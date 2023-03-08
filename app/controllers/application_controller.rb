@@ -35,5 +35,11 @@ class ApplicationController < ActionController::Base
   end
   helper_method :empty_cart
 
+  def getProductByID (id)
+    @product = Product.find(id)
+  end
+  helper_method :getProductByID
+
+
 end
 
