@@ -26,8 +26,6 @@ class Admin::CategoriesController < ApplicationController
   def category_params
     params.require(:category).permit(
       :name,
-      :created_at,
-      :updated_at,
     )
 
   end
