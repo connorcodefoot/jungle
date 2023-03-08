@@ -14,7 +14,6 @@
 // Fonts
 // Global
 body {
-  // padding-top: 70px;
   font-size: 20px;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -23,6 +22,9 @@ h2,
 h3,
 h4 {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
 }
 // Bootstrap adjustments
 form.button_to {
