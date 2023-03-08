@@ -4,5 +4,10 @@ class Admin::DashboardController < ApplicationController
 
   def show
   end
+
+  def product_count
+    @product_count = Product.all.count
+  end
+
 end
 
