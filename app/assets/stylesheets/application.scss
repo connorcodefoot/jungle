@@ -109,14 +109,26 @@ form.button_to {
 }
 
 .page-header {
-  margin: 3em 0;
+  margin-top: 3em 0;
 }
 .text-danger {
   color: #f38792 !important;
 }
 
 main {
-  margin: 3em;
+  margin: 2em;
 }
 
+form {
+  width: 50%;
+}
+
+.btn {
+  background-color: green !important;
+  color: white;
+
+  &:hover {
+  background-color: lightgreen !important
+  }
+}
 
