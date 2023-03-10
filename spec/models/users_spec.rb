@@ -16,6 +16,11 @@ RSpec.describe User, type: :model do
       expect(user).to_not be_valid
     end
 
+    it 'should fail validation as EMAIL is set to NIL' do
+      user = User.new(name: "Yes", email: nil, password: '123', password_confirmation: '123')
+      expect(user).to_not be_valid
+    end
+
 
 
 
