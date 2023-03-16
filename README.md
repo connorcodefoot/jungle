@@ -1,6 +1,8 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example. This project is still in progress. Next steps:
+- Add further cypress tests
+- Improve UI
 
 ## Setup
 
